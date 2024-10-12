@@ -206,8 +206,12 @@ figcaption {
 }
 
 img {
-  width: 100%;
+  width: 50%;
   height: auto;
+}
+
+img-sub {
+  width: 30%
 }
 
 .primary {
@@ -424,7 +428,4 @@ there.
 
 /* Larger than tablet */
 @media (min-width: 1200px) {}
-
-
-
 
