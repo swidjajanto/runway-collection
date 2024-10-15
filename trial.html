@@ -15,33 +15,44 @@
 
   <!-- CSS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="stylesheet" href="../css/normalize.css">
-  <link rel="stylesheet" href="../css/styles.css">
-  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="css/trial.css">
 
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="icon" type="image/png" href="../images/favicon.ico">
-</head>
+
 </head>
 <body>
-    <div class="container">
-        <div class="main-image">
-            <div class="name">NAME</div>
+
+<div class="slider">
+    <!-- Radio buttons to control slides -->
+    <input type="radio" name="slider" id="slide1" checked>
+    <input type="radio" name="slider" id="slide2">
+    <input type="radio" name="slider" id="slide3">
+
+    <!-- Slides -->
+    <div class="slides">
+        <div class="slide">
+            <img src="image1.jpg" alt="Image 1">
         </div>
-       <div class="categories">
-          <p>TOPS</p>
-          <p>BOTTOMS</p>
-          <p>OUTER</p>
-          <p>ACC.</p>
-      </div>
-      <div class="navigation-a">
-          <div class="home">
-          <a href="index.html">HOME</a>
-      </div>
-      <div class="navigation-b"> 
-          <div class="submit"> 
-            <a href="submit-entry.html">SUBMIT</a>
-      </div>
+        <div class="slide">
+            <img src="image2.jpg" alt="Image 2">
+        </div>
+        <div class="slide">
+            <img src="image3.jpg" alt="Image 3">
+        </div>
+    </div>
+
+    <!-- Navigation arrows -->
+    <div class="arrows">
+        <label for="slide1" class="prev">&#10094;</label>
+        <label for="slide2" class="next">&#10095;</label>
+        <label for="slide2" class="prev">&#10094;</label>
+        <label for="slide3" class="next">&#10095;</label>
+        <label for="slide3" class="prev">&#10094;</label>
+        <label for="slide1" class="next">&#10095;</label>
+    </div>
+</div>
+
 </body>
-</head>
+</html>
