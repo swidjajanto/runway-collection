@@ -55,6 +55,13 @@ a {
     gap: 10px;
     max-width: 1200px;
 }
+.grid-container-entry {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    gap: 10px;
+    max-width: 1200px;
+}
 
 .grid-container a {
     display: block;
@@ -89,7 +96,7 @@ a {
     position: absolute;
     top: 0;
     left: 0;
-    width: 30%;
+    width: 33%;
     height: 100%;
     background-color: #7b7b7b;
     display: flex;
@@ -185,3 +192,37 @@ a {
     cursor: pointer;
     transition: background-color 0.3s;
 }
+
+.slides {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+    min-width: 25%;
+}
+
+.slide img {
+    position: absolute;
+    top: 20%;
+    left: 55%;
+    right: 40%;
+    width: 20%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.arrows {
+    position: absolute;
+    top: 50%;
+    right: 30%;
+    left: 40%;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-50%);
+}
+
