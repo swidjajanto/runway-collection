@@ -1,3 +1,47 @@
+#main {
+    background: url(../images/runway-trial-pic.jpeg);
+    background-size: cover;  
+    background-position: bottom center; 
+    min-height: 80dvh; 
+    }
+    .container {
+        max-width: 1200px;
+        padding: 16px;
+        margin: auto; 
+    }
+    .main-content {
+        display: flex; 
+        flex-direction: column; 
+        align-items: center; 
+        justify-content: center;
+        margin-top: 100px 
+    }
+    .main-content .main-heading {
+        font-size: 120px;
+        margin-top: 150px 
+    }
+
+    .entries{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 10px;
+    max-width: 1200px;
+        }
+        
+    .entry{
+         width: 300px;
+     }
+        
+    .entry img {
+         max-width: 100%;
+        border-radius: 5px;
+        transition: transform 0.3s ease 
+     }
+    .entry img:hover {
+        transform: scale(1.05)
+     }
+
 .maingrid {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
@@ -19,7 +63,7 @@
         margin: 0 auto;
         color:var(--white);
         text-align: center;
-        font-size: 20pt (12pt);
+        font-size: 40pt (12pt);
         letter-spacing: 0.5cm;
     }
 
@@ -214,30 +258,19 @@ a {
 
 }
 
-.arrows {
-    position: relative;
-    top: 50%;
-    right: 30%;
-    left: 40%;
-    width: 50%;
-    display: flex;
-    justify-content: space-between;
-    transform: translateY(-50%);
-    border-width: 0 3px 3px 0 
+button {
+    padding: 12px 24px;
+    font-size: 18px;
+    background-color: #AE8381;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 20px;
 }
-.arrow-right {
-    border: solid black;
-    border-width: 0 3px 3px 0; 
-    display: inline-block;
-    transform: rotate (-45deg);
-    position: relative;
-    top: 50%;
-    right: 30%;
-    left: 40%;
-    width: 50%;
-    display: flex;
+button:hover {
+    background-color: hwb(3 53% 23%)
 }
-.left{
-    transform: rotate (135deg);
+#imageContainer {
+    margin-top: 20px;
 }
-

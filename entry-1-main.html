@@ -15,31 +15,45 @@
 
   <!-- CSS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="stylesheet" href="css/random.css">
+  <link rel="stylesheet" href="../css/normalize.css">
+  <link rel="stylesheet" href="../css/styles.css">
+  <link rel="stylesheet" href="css/index.css">
 
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="icon" type="image/png" href="../images/favicon.ico">
-    
+</head>
 </head>
 <body>
+
     <div class="container">
-        <div class=" navigation-a">
-            <div class="home"> 
-               <a href="index.html">HOME</a>
-              </div>
-          <div class="navigation-b"> 
-              <div class="submit"> 
-                <a href="submit-entry.html">SUBMIT</a>
+        <div class="main-image">
+            <div class="name">NAME</div>
         </div>
-            
-        <button onclick="displayRandomImage()">OUTFIT</button>
-        <div id="imageContainer">
-            <!-- Image will be displayed here -->
-        </div>
+        <div class="container">
+          <button onclick="displayRandomImage()">OUTFIT</button>
+          <div id="imageContainer">
+              <!-- Image will be displayed here -->
+          </div>
+      </div>
+  
+      <script src="js/random-image.js"></script>
     </div>
+       <div class="categories">
+          <p>TOPS</p>
+          <p>BOTTOMS</p>
+          <p>OUTER</p>
+          <p>ACC.</p>
 
-    <script src="js/entry-1.js"></script>
-
+      </div>
+      <div class=" navigation-a">
+        <div class="home"> 
+           <a href="index.html">HOME</a>
+          </div>
+      <div class="navigation-b"> 
+          <div class="submit"> 
+            <a href="submit-entry.html">SUBMIT</a>
+      </div>
+  </section>
 </body>
-</html>
+</head>
