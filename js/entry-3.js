@@ -9,6 +9,8 @@ const images = [
     'images/fall-eight.WEBP',
     'images/fall-nine.WEBP',
     'images/fall-ten.WEBP',
+    'images/fall-eleven.jpeg',
+    'images/fall-twelve.jpeg',
 ]
 function displayRandomImage() {
     const imageContainer = document.getElementById('imageContainer');

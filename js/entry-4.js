@@ -1,7 +1,8 @@
 const images = [
-    'images/archive-1.jpg',
-    'images/archive-2.jpg',
-    'images/archive-3.jpg',
+    'images/winter-one.jpeg',
+    'images/winter-two.jpeg',
+    'images/winter-three.jpeg',
+    'images/winter-four.jpeg',
 ];
 
 function displayRandomImage() {

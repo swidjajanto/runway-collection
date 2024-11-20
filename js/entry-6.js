@@ -4,7 +4,9 @@ const images = [
     'images/out-three.jpg',
     'images/out-four.jpg',
     'images/out-five.jpg',
-    
+    'images/out-six.jpeg',
+    'images/out-seven.jpeg',
+    'images/out-eight.jpeg',
 ];
 
 function displayRandomImage() {

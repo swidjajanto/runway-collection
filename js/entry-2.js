@@ -8,6 +8,9 @@ const images = [
     'images/spring-seven.jpg',
     'images/spring-eight.jpg',
     'images/spring-nine.jpg',
+    'images/spring-ten.jpeg',
+    'images/summer-eleven.WEBP',
+    'images/spring-twelve.jpeg',
 ];
 
 function displayRandomImage() {
