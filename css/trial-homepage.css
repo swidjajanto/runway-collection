@@ -103,9 +103,29 @@
     grid-row: 2 / 3;
 }
 
+.entry-1 img {
+    max-width: 100%;
+   border-radius: 5px;
+   transition: transform 0.3s ease 
+}
+
+.entry-1 img:hover {
+   transform: scale(1.05)
+}
+
 .entry-2{
     grid-column: 3 / 4;
     grid-row: 2 / 3;
+}
+
+.entry-2 img {
+    max-width: 100%;
+   border-radius: 5px;
+   transition: transform 0.3s ease 
+}
+
+.entry-2 img:hover {
+   transform: scale(1.05)
 }
 
 .entry-3{
@@ -113,9 +133,29 @@
     grid-row: 2 / 3;
 }
 
+.entry-3 img {
+    max-width: 100%;
+   border-radius: 5px;
+   transition: transform 0.3s ease 
+}
+
+.entry-3 img:hover {
+   transform: scale(1.05)
+}
+
 .entry-4{
     grid-column: 5 / 6;
     grid-row: 2 / 3;
+}
+
+.entry-4 img {
+    max-width: 100%;
+   border-radius: 5px;
+   transition: transform 0.3s ease 
+}
+
+.entry-4 img:hover {
+   transform: scale(1.05)
 }
 
 .entry-5{
@@ -123,9 +163,28 @@
     grid-row: 4 / 6;
 }
 
+.entry-5 img {
+    max-width: 100%;
+   border-radius: 5px;
+   transition: transform 0.3s ease 
+}
+
+.entry-5 img:hover {
+   transform: scale(1.05)
+}
+
 .entry-6{
     grid-column: 3 / 4;
     grid-row: 4 / 6;
+}
+
+.entry-6 img {
+    max-width: 100%;
+   border-radius: 5px;
+   transition: transform 0.3s ease 
+}
+.entry-6 img:hover {
+   transform: scale(1.05)
 }
 
 .entry-7{
@@ -133,9 +192,29 @@
     grid-row: 4 / 6;
 }
 
+.entry-7 img {
+    max-width: 100%;
+   border-radius: 5px;
+   transition: transform 0.3s ease 
+}
+
+.entry-7 img:hover {
+   transform: scale(1.05)
+}
+
 .entry-8{
     grid-column: 5 / 6;
     grid-row: 4 / 6;
+}
+
+.entry-8 img {
+    max-width: 100%;
+   border-radius: 5px;
+   transition: transform 0.3s ease 
+}
+
+.entry-8 img:hover {
+   transform: scale(1.05)
 }
 
 .entry-9{
@@ -143,7 +222,27 @@
     grid-row: 6 / 8;
 }
 
+.entry-9 img {
+    max-width: 100%;
+   border-radius: 5px;
+   transition: transform 0.3s ease 
+}
+
+.entry-9 img:hover {
+   transform: scale(1.05)
+}
+
 .entry-10{
     grid-column: 4 / 5;
     grid-row: 6 / 8;
+}
+
+.entry-10 img {
+    max-width: 100%;
+   border-radius: 5px;
+   transition: transform 0.3s ease 
+}
+
+.entry-10 img:hover {
+   transform: scale(1.05)
 }
