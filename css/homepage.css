@@ -327,11 +327,22 @@
     font-family: Playfair;
     font-style: italic;
     font-size: 16px;
-    grid-column: 5 / 7;
-    grid-row: 5;
+    grid-column: 4 / 7;
+    grid-row: 4;
     line-height: 35px; 
     margin-right: 20px;
     margin-left: 20px;
+    margin-top: 40px;
+}
+
+.about-image{
+    grid-column: 1 / 5;
+    grid-row: 2 / 5;
+}
+
+.about-image img {
+    max-width: 40%;
+   border-radius: 5px;
 }
 
 /* inspire */
@@ -339,14 +350,18 @@
     grid-column: 2 / 7;
     grid-row: 2;
     font-family: Playfair;
-    font-size: 40px;
-    letter-spacing: 20px;
+    font-size: 20px;
+    letter-spacing: 10px;
+    font-style: italic;
+    line-height: 40px;
     margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 100px;
 }
 
 .inspire-icon-heading{
     grid-column: 2 / 7;
-    grid-row: 4;
+    grid-row: 3;
     font-family: Playfair;
     font-size: 40px;
     letter-spacing: 20px;
@@ -355,7 +370,7 @@
 
 .inspire-icon-1{
     grid-column: 2 / 3;
-    grid-row: 5;
+    grid-row: 4;
 }
 
 .inspire-icon-1 img {
@@ -370,7 +385,7 @@
 
 .inspire-icon-2{
     grid-column: 3 / 4;
-    grid-row: 5;
+    grid-row: 4;
 }
 
 .inspire-icon-2 img {
@@ -385,7 +400,7 @@
 
 .inspire-icon-3{
     grid-column: 4 / 5;
-    grid-row: 5;
+    grid-row: 4;
 }
 
 .inspire-icon-3 img {
@@ -400,7 +415,7 @@
 
 .inspire-icon-4{
     grid-column: 5 / 6;
-    grid-row: 5;
+    grid-row: 4;
 }
 
 .inspire-icon-4 img {
