@@ -6,8 +6,10 @@
             font-family: Playfair;
         }
         button {
+            font-family: Playfair;
+            letter-spacing: 10px;
             padding: 12px 24px;
-            font-size: 18px;
+            font-size: 22px;
             background-color: #AE8381;
             color: white;
             border: none;
