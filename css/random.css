@@ -14,7 +14,7 @@
             border-radius: 4px;
             cursor: pointer;
             margin-bottom: 50px;
-            grid-column: 2 / 3;
+            grid-column: 3 / 5;
             grid-row: 2;
         }
         button:hover {
@@ -22,8 +22,8 @@
         }
         #imageContainer {
             margin-top: 20px;
-            margin-left: 150px;
-            grid-column: 1 / 4;
+            margin-left: 190px;
+            grid-column: 2 / 6;
             grid-row: 3;
         }
         img {
