@@ -58,8 +58,7 @@
     }
 
     h1 {
-        width: 60vw;
-        margin: 0 auto;
+        position: relative;
         color:var(--white);
         text-align: center;
         font-size: 40pt (12pt);
@@ -73,6 +72,15 @@
         text-align: center;
         font-size: 8pt (8pt);
         letter-spacing: 0.25cm;
+    }
+
+    h3 {
+        width: 60vw;
+        margin: 0 auto;
+        color:var(--white);
+        text-align: center;
+        font-size: 40pt (40pt);
+        letter-spacing: 0.5cm;
     }
 
     
