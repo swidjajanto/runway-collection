@@ -147,7 +147,7 @@
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     grid-template-rows: repeat(8, 140px);
-    gap: 10px;
+    gap: 15px;
 }
 
 /* entries */
