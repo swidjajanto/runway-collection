@@ -25,38 +25,168 @@
 
 </head>
 <body>
-  <section class="grid-3">
-    <div class="header">
-       <a href="index.html" class="logo">RUNWAY</a>
-       <div class="header-right">
-         <a href="entry-homepage.html">Home</a>
-         <a href="about.html">About</a>
-         <a href="inspire.html">Inspire</a>
-       </div>
-    <div class="slideshow-container">
-    <div class="mySlides fade">
-      <div class="numbertext">1 / 3</div>
-      <img src="images/event-eight.jpg" style="width:100%">
-      <div class="text">Caption Text</div>
+  <h2>ARCHIVE</h2>
+  <div id="myBtnContainer">
+    <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+    <button class="btn" onclick="filterSelection('summer')"> Summer</button>
+    <button class="btn" onclick="filterSelection('spring')"> Spring</button>
+    <button class="btn" onclick="filterSelection('fall')"> Fall</button>
+    <button class="btn" onclick="filterSelection('winter')"> Winter</button>
+    <button class="btn" onclick="filterSelection('work')"> Work</button>
+    <button class="btn" onclick="filterSelection('out')"> Out</button>
+    <button class="btn" onclick="filterSelection('event')"> Event</button>
+    <button class="btn" onclick="filterSelection('travel')"> Travel</button>
+    <button class="btn" onclick="filterSelection('sport')"> Sport</button>
+  </div>
+
+  <div class="row">
+    <div class="column summer">
+      <div class="content">
+        <img src="images/summer-one.jpg" style="width:100%">
+      </div>
     </div>
-    <div class="mySlides fade">
-      <div class="numbertext">2 / 3</div>
-      <img src="images/event-eight.jpg" style="width:100%">
-      <div class="text">Caption Two</div>
+    <div class="column summer">
+      <div class="content">
+        <img src="..." style="width:100%">
+      </div>
     </div>
-    <div class="mySlides fade">
-      <div class="numbertext">3 / 3</div>
-      <img src="images/event-eight.jpg" style="width:100%">
-      <div class="text">Caption Three</div>
+    <div class="column summer">
+      <div class="content">
+        <img src="images/summer-three.jpg" style="width:100%">
+      </div>
     </div>
-    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  
+    <div class="column spring">
+      <div class="content">
+        <img src="images/spring-one.WEBP" style="width:100%">
+      </div>
     </div>
-    <div style="text-align:center">
-        <span class="dot" onclick="currentSlide(1)"></span>
-        <span class="dot" onclick="currentSlide(2)"></span>
-        <span class="dot" onclick="currentSlide(3)"></span>
+    <div class="column spring">
+      <div class="content">
+        <img src="images/spring-two.WEBP" style="width:100%">
+      </div>
     </div>
-  </section>
+    <div class="column spring">
+      <div class="content">
+        <img src="images/spring-three.WEBP" style="width:100%">
+      </div>
+    </div>
+  
+    <div class="column fall">
+      <div class="content">
+        <img src="images/fall-one.jpg" style="width:100%">
+      </div>
+    </div>
+    <div class="column fall">
+      <div class="content">
+        <img src="images/fall-two.jpg" style="width:100%">
+      </div>
+    </div>
+    <div class="column fall">
+      <div class="content">
+        <img src="images/fall-three.jpg" style="width:100%">
+      </div>
+    </div>
+
+    <div class="column winter">
+      <div class="content">
+        <img src="images/winter-one.jpeg" style="width:100%">
+      </div>
+    </div>
+    <div class="column winter">
+      <div class="content">
+        <img src="images/winter-two.jpeg" style="width:100%">
+      </div>
+    </div>
+    <div class="column winter">
+      <div class="content">
+        <img src="images/winter-three.jpeg" style="width:100%">
+      </div>
+    </div>
+  </div>
+
+  <div class="column work">
+    <div class="content">
+      <img src="images/work-one.jpg" style="width:100%">
+    </div>
+  </div>
+  <div class="column work">
+    <div class="content">
+      <img src="images/work-two.jpeg" style="width:100%">
+    </div>
+  </div>
+  <div class="column work">
+    <div class="content">
+      <img src="images/work-three.WEBP" style="width:100%">
+    </div>
+  </div>
+
+  <div class="column out">
+    <div class="content">
+      <img src="images/out-one.jpg" style="width:100%">
+    </div>
+  </div>
+  <div class="column out">
+    <div class="content">
+      <img src="images/out-two.jpg" style="width:100%">
+    </div>
+  </div>
+  <div class="column out">
+    <div class="content">
+      <img src="images/out-three.jpg" style="width:100%">
+    </div>
+  </div>
+
+  <div class="column event">
+    <div class="content">
+      <img src="images/event-one.jpg" style="width:100%">
+    </div>
+  </div>
+  <div class="column event">
+    <div class="content">
+      <img src="images/event-two.jpg" style="width:100%">
+    </div>
+  </div>
+  <div class="column event">
+    <div class="content">
+      <img src="images/event-three.jpg" style="width:100%">
+    </div>
+  </div>
+
+  <div class="column travel">
+    <div class="content">
+      <img src="images/travel-one.jpeg" style="width:100%">
+    </div>
+  </div>
+  <div class="column travel">
+    <div class="content">
+      <img src="images/travel-two.jpeg" style="width:100%">
+    </div>
+  </div>
+  <div class="column travel">
+    <div class="content">
+      <img src="images/travel-three.jpeg" style="width:100%">
+    </div>
+  </div>
+
+  <div class="column sport">
+    <div class="content">
+      <img src="images/sport-one.jpeg" style="width:100%">
+    </div>
+  </div>
+  <div class="column sport">
+    <div class="content">
+      <img src="images/sport-two.jpg" style="width:100%">
+    </div>
+  </div>
+  <div class="column sport">
+    <div class="content">
+      <img src="images/sport-three.jpg" style="width:100%">
+    </div>
+  </div>
+
+
+  <script src="js/archive.js"></script>
+
 </body>
 </html>
