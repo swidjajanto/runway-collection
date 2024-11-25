@@ -5,6 +5,15 @@ const images = [
     'images/travel-four.jpeg',
     'images/travel-five.jpeg',
     'images/travel-six.jpeg',
+    'images/travel-seven.WEBP',
+    'images/travel-eight.WEBP',
+    'images/travel-nine.WEBP',
+    'images/travel-ten.WEBP',
+    'images/travel-eleven.WEBP',
+    'images/travel-twelve.WEBP',
+    'images/travel-thirteen.WEBP',
+    'images/travel-fourteen.WEBP',
+    'images/travel-fifteen.WEBP',
 ];
 
 function displayRandomImage() {

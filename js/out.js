@@ -7,6 +7,13 @@ const images = [
     'images/out-six.jpeg',
     'images/out-seven.jpeg',
     'images/out-eight.jpeg',
+    'images/out-nine.WEBP',
+    'images/out-ten.WEBP',
+    'images/out-eleven.WEBP',
+    'images/out-twelve.WEBP',
+    'images/out-thirteen.WEBP',
+    'images/out-fourteen.WEBP',
+    'images/out-fifteen.WEBP',
 ];
 
 function displayRandomImage() {

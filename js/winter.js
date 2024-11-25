@@ -3,6 +3,7 @@ const images = [
     'images/winter-two.jpeg',
     'images/winter-three.jpeg',
     'images/winter-four.jpeg',
+    'images/winter-five.WEBP',
 ];
 
 function displayRandomImage() {

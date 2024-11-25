@@ -11,6 +11,7 @@ const images = [
     'images/fall-ten.WEBP',
     'images/fall-eleven.jpeg',
     'images/fall-twelve.jpeg',
+    'images/fall-thirteen.WEBP',
 ]
 function displayRandomImage() {
     const imageContainer = document.getElementById('imageContainer');

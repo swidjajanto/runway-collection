@@ -10,6 +10,8 @@ const images = [
     'images/summer-nine.WEBP',
     'images/summer-ten.WEBP',
     'images/summer-eleven.WEBP',
+    'images/summer-twelve.WEBP',
+    'images/summer-thirteen.WEBP',
 ];
 
 function displayRandomImage() {

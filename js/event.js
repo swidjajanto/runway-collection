@@ -10,6 +10,10 @@ const images = [
     'images/event-nine.jpg',
     'images/event-ten.jpg',
     'images/event-eleven.jpg',
+    'images/event-twelve.WEBP',
+    'images/event-thirteen.WEBP',
+    'images/event-fourteen.WEBP',
+    'images/event-fifteen.WEBP',
 ];
 
 function displayRandomImage() {

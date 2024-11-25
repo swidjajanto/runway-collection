@@ -5,7 +5,7 @@
 body {
   background-color: #f1f1f1;
   padding: 20px;
-  font-family: Arial;
+  font-family: Playfair;
 }
 
 /* Center website */
@@ -15,7 +15,7 @@ body {
 }
 
 h1 {
-  font-size: 50px;
+  font-size: 60px;
   word-break: break-all;
 }
 
@@ -32,7 +32,7 @@ h1 {
 /* Create three equal columns that floats next to each other */
 .column {
   float: left;
-  width: 33.33%;
+  width: 33.00%;
   display: none;
 }
 
