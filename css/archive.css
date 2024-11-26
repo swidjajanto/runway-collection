@@ -3,7 +3,7 @@
 }
 
 body {
-  background-color: #f1f1f1;
+  background-color: #ffffff;
   padding: 20px;
   font-family: Playfair;
 }
@@ -58,7 +58,7 @@ h1 {
 }
 
 .btn:hover {
-  background-color: #fffcfc;
+  background-color: rgb(208, 157, 155);
 }
 
 .btn.active {
