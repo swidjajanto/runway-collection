@@ -1,3 +1,9 @@
+.body {
+    margin: 0;
+    font-family: Playfair;
+}
+
+
 /* header */
 .header {
     grid-column: 1 / 7;
@@ -42,6 +48,7 @@
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: repeat(3, 225px);
+    color: white;
   }
 
 .video{
@@ -74,6 +81,7 @@
 }
 
 .button {
+    font-family: Playfair;
     background-color: #ffffff;
     color: black;
     padding: 20px 40px;
