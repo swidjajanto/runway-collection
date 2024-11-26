@@ -284,7 +284,7 @@ button {
     margin-bottom: 20px;
 }
 button:hover {
-    background-color: hwb(3 53% 23%)
+    background-color: rgb(208, 157, 155)
 }
 #imageContainer {
     margin-top: 20px;
